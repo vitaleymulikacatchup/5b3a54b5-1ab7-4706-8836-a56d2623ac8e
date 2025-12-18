@@ -150,9 +150,30 @@ export default function LandingPage() {
       </div>
       
       <div id="customers-say" data-section="customers-say" className="relative">
-        <div className="w-full max-w-6xl mx-auto px-6 py-20 text-center">
-          <div className="inline-block px-6 py-3 mb-6 bg-[var(--card)] text-[var(--foreground)] rounded-full shadow-lg border border-[var(--border)] backdrop-blur-sm">
-            <span className="text-sm font-semibold">We have 2,000 clients who liked it</span>
+        <div className="w-full max-w-6xl mx-auto px-6 py-20">
+          <div className="flex flex-col items-center gap-8">
+            <div className="inline-block px-6 py-3 bg-[var(--card)] text-[var(--foreground)] rounded-full shadow-lg border border-[var(--border)] backdrop-blur-sm">
+              <span className="text-sm font-semibold">Join 2,000+ coffee enthusiasts</span>
+            </div>
+            
+            <div className="flex flex-wrap justify-center gap-4 max-w-4xl">
+              <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[var(--card)] shadow-md hover:shadow-lg transition-shadow">
+                <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766072262056-5fc6gm95.jpg" alt="Customer 1" className="w-full h-full object-cover" />
+              </div>
+              <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[var(--card)] shadow-md hover:shadow-lg transition-shadow">
+                <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766072262868-xhcc7k2g.jpg" alt="Customer 2" className="w-full h-full object-cover" />
+              </div>
+              <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[var(--card)] shadow-md hover:shadow-lg transition-shadow">
+                <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766072263646-sc25uolx.jpg" alt="Customer 3" className="w-full h-full object-cover" />
+              </div>
+              <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-[var(--card)] shadow-md hover:shadow-lg transition-shadow">
+                <img src="https://webuild-dev.s3.eu-north-1.amazonaws.com/gallery/uploaded-1766072264557-nwn1qdme.jpg" alt="Customer 4" className="w-full h-full object-cover" />
+              </div>
+            </div>
+            
+            <p className="text-center text-[var(--foreground)]/75 text-sm font-medium mt-4">
+              Our valued community members enjoying premium Mureli coffee every day
+            </p>
           </div>
         </div>
       </div>
