@@ -149,6 +149,14 @@ export default function LandingPage() {
         />
       </div>
       
+      <div id="customers-say" data-section="customers-say" className="relative">
+        <div className="w-full max-w-6xl mx-auto px-6 py-20 text-center">
+          <div className="inline-block px-6 py-3 mb-6 bg-[var(--card)] text-[var(--foreground)] rounded-full shadow-lg border border-[var(--border)] backdrop-blur-sm">
+            <span className="text-sm font-semibold">We have 2,000 clients who liked it</span>
+          </div>
+        </div>
+      </div>
+      
       <div id="contact" data-section="contact">
         <ContactCenter
           tag="Stay Connected"
